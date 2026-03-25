@@ -8,7 +8,6 @@ repository = "https://github.com/JCLee777/simple-cli"
 
 [dependencies]
 clap = { version = "4.5.39", features = ["derive"] }
-git2 = { version = "0.19", features = ["vendored-libgit2"] }
 
 # The profile that 'dist' will build with
 [profile.dist]
